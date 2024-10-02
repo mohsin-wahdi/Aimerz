@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Questionnaire</title>
+  </head>
+  <body>
+    <form method="post">
+      <h1>Website Design Questionnaire</h1>
+      <section>
+        <p>
+          Please fill out this questionnaire to help us better understand your
+          project requirements
+        </p>
+      </section>
+
+      <section>
+        <h2>General Information</h2>
+
+        <label for="name">Name : </label>
+        <input type="text" id="name" required />
+        <br />
+        <label for="email">Email : </label>
+        <input type="text" id="email" required />
+        <br />
+        <label for="Company">Company : </label>
+        <input type="text" id="Company" required />
+      </section>
+
+      <section>
+        <h2>Project Details</h2>
+        <label for="project">Project Type : </label>
+        <select name="project" id="project">
+          <option value="select">Select Project Type</option>
+          <option value="Website">Website</option>
+
+          <option value="Webapplicaton">Web Applicaton</option>
+
+          <option value="Ecommerce">Ecommerce</option>
+
+          <option value="Other">Other</option>
+        </select>
+        <br />
+
+        <label for="Desc">Project Description : </label>
+        <textarea name="Desc" id="Desc" rows="4"></textarea>
+        <br />
+        <label for="Target">Target Audience</label>
+        <input type="text" id="Target" />
+        <br />
+      </section>
+
+      <section>
+        <h2>Design Preference</h2>
+        <label for="color">Color Scheme : </label>
+        <input type="text" id="color" />
+        <br />
+        <label for="Font">Font Scheme : </label>
+        <input type="text" id="Font" />
+        <br />
+        <label for="style">Style Scheme : </label>
+        <input type="text" id="style" />
+        <br />
+      </section>
+
+      <section>
+        <h2>Additional Infomation</h2>
+        <label for="bdget">Budget</label>
+        <input type="text" id="bdget" />
+        <br />
+        <label for="timeline">Timeline</label>
+        <input type="text" id="timeline" /><br />
+        <label for="notes">Additional Notes</label>
+        <textarea name="notes" id="notes" rows="5"></textarea><br />
+        <button>Submit Questionnaire</button>
+      </section>
+    </form>
+    <footer>
+      <p>&copy;2023 Questionnaire. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
